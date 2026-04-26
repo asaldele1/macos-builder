@@ -12,7 +12,7 @@ on:
         default: ${{ github.repository == 'minecraft-linux/mcpelauncher-manifest' && (github.sha || github.ref) || 'ng' }}
       mcpelauncher-ui-repo:
         type: string
-        default: https://github.com/minecraft-linux/mcpelauncher-ui-manifest
+        default: https://github.com/asaldele1/mcpelauncher-ui-manifest
       mcpelauncher-ui-ref:
         type: string
         default: ${{ github.repository == 'minecraft-linux/mcpelauncher-ui-manifest' && (github.sha || github.ref) || 'ng' }}
